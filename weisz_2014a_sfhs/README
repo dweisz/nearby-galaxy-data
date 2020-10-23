@@ -1,0 +1,19 @@
+# SFH data from Weisz et al. 2014 (ApJ, 789, 147)
+# out.final has uncertainites that reflect random + systemstics due to stellar evolution uncertianites. 
+# these files should be used for most SFH analysis, as the systematics caputure SFH uncertaintites due to depth of CMD
+# out.mcmc.final contains only the random component of the uncertainites and should be used seldomly (e.g., when doing differential SFH comparisions from CMDs of similar depths)
+# The colums in the SFH files are listed here.
+(1) log(look back time) younger age
+(2) log(lookback time) older age
+(4) SFR (Msun /yr)
+(5) upper uncertainty on SFR
+(6) lower uncertainty on SFR
+(7) mean metallicity ([M/H]) — note if SFR ==0 then this column is 0 (but that doesn’t mean solar!)
+(8) upper error on mean metallicity
+(9) lower error on mean metallicity
+(10) metallicity dispersion
+(11) upper error on metallicity dispersion
+(12) lower error on metallicity dispersion
+(13) cumulative SFH
+(14) upper error on cSFH
+(15) lower error on cSFH 

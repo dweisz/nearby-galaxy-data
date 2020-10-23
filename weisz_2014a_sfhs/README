@@ -1,8 +1,12 @@
-# SFH data from Weisz et al. 2014 (ApJ, 789, 147)
-# out.final has uncertainites that reflect random + systemstics due to stellar evolution uncertianites. 
-# these files should be used for most SFH analysis, as the systematics caputure SFH uncertaintites due to depth of CMD
-# out.mcmc.final contains only the random component of the uncertainites and should be used seldomly (e.g., when doing differential SFH comparisions from CMDs of similar depths)
-# The colums in the SFH files are listed here.
+Star Formation History data for Local Group Dwarf Galaxies from Weisz et al. 2014 (ApJ, 789, 147)
+
+out.final has uncertainites that reflect random + systemstics due to stellar evolution uncertianites. 
+these files should be used for most SFH analysis, as the systematics caputure SFH uncertaintites due to depth of CMD.
+
+out.mcmc.final contains only the random component of the uncertainites and should be used seldomly 
+(e.g., when doing differential SFH comparisions from CMDs of similar depths)
+
+The columns in each of the SFH files are listed here.
 (1) log(look back time) younger age
 (2) log(lookback time) older age
 (4) SFR (Msun /yr)
